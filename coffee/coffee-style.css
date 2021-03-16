@@ -1,0 +1,36 @@
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+#coffee-table{
+	border: none;
+}
+
+#coffee-table tr:nth-child(even){
+	background-color: #f0f0f0
+}
+
+#table-top td, th{
+	border-bottom: none;
+}
+
+#table-bottom td, th{
+	border-top: none;
+}
+
+#table-mid td, th{
+	border-top: none;
+	border-bottom: none;
+}
+
+#tleft{
+	border-right: none;
+}
+
+#tright{
+	border-left: none;
+	padding-left: 15px;
+}
