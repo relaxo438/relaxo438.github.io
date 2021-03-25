@@ -7,6 +7,7 @@ table, th, td{
 
 #coffee-table{
 	border: none;
+	width: 100%;
 }
 
 #coffee-table tr:nth-child(even){
@@ -28,6 +29,8 @@ table, th, td{
 
 #tleft{
 	border-right: none;
+	width: 1%;
+	white-space: nowrap;
 }
 
 #tright{
